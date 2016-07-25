@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cocoon-plugin-android-adding-resources" version="1.0.0">
+    <name>CocoonAndroidAddingResources</name>
+    <description>Cocoon Adding Resources</description>
+    <license>MPL 2.0</license>
+    <keywords>cordova,resources,drawable</keywords>
+    <repo>https://github.com/ludei/atomic-plugins-notifications</repo>
+
+    <platform name="android">
+
+        <resource-file src="res/drawable-mdpi/fcm_push_icon.png" target="res/drawable-mdpi/fcm_push_icon.png" />
+        <resource-file src="res/drawable-mdpi-v11/fcm_push_icon.png" target="res/drawable-mdpi-v11/fcm_push_icon.png" />
+
+        <resource-file src="res/drawable-hdpi/fcm_push_icon.png" target="res/drawable-hdpi/fcm_push_icon.png" />
+        <resource-file src="res/drawable-hdpi-v11/fcm_push_icon.png" target="res/drawable-hdpi-v11/fcm_push_icon.png" />
+
+        <resource-file src="res/drawable-xhdpi/fcm_push_icon.png" target="res/drawable-xhdpi/fcm_push_icon.png" />
+        <resource-file src="res/drawable-xhdpi-v11/fcm_push_icon.png" target="res/drawable-xhdpi-v11/fcm_push_icon.png" />
+
+        <resource-file src="res/drawable-xxhdpi/fcm_push_icon.png" target="res/drawable-xxhdpi/fcm_push_icon.png" />
+        <resource-file src="res/drawable-xxhdpi-v11/fcm_push_icon.png" target="res/drawable-xxhdpi-v11/fcm_push_icon.png" />
+
+        <resource-file src="res/drawable-xxxhdpi/fcm_push_icon.png" target="res/drawable-xxxhdpi/fcm_push_icon.png" />
+        <resource-file src="res/drawable-xxxhdpi-v11/fcm_push_icon.png" target="res/drawable-xxxhdpi-v11/fcm_push_icon.png" />
+
+    </platform>
+</plugin>
